@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AB26C9442704408F000681A4 /* IOSNetworkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26C9432704408F000681A4 /* IOSNetworkingApp.swift */; };
-		AB26C9462704408F000681A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26C9452704408F000681A4 /* ContentView.swift */; };
 		AB26C94827044090000681A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB26C94727044090000681A4 /* Assets.xcassets */; };
 		AB26C94B27044090000681A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB26C94A27044090000681A4 /* Preview Assets.xcassets */; };
 		AB26C94D27044090000681A4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26C94C27044090000681A4 /* Persistence.swift */; };
@@ -16,6 +15,10 @@
 		AB26C95A27044090000681A4 /* IOSNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26C95927044090000681A4 /* IOSNetworkingTests.swift */; };
 		AB26C96427044090000681A4 /* IOSNetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26C96327044090000681A4 /* IOSNetworkingUITests.swift */; };
 		AB26C96627044090000681A4 /* IOSNetworkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26C96527044090000681A4 /* IOSNetworkingUITestsLaunchTests.swift */; };
+		AB26C97427044121000681A4 /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26C97327044121000681A4 /* Screen1.swift */; };
+		ABDA0E342704488D002B341D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ABDA0E332704488D002B341D /* Alamofire */; };
+		ABDA0E372704803E002B341D /* AFHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA0E362704803E002B341D /* AFHttp.swift */; };
+		ABDA0E3A2706CB94002B341D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA0E392706CB94002B341D /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 /* Begin PBXFileReference section */
 		AB26C9402704408F000681A4 /* IOSNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB26C9432704408F000681A4 /* IOSNetworkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNetworkingApp.swift; sourceTree = "<group>"; };
-		AB26C9452704408F000681A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB26C94727044090000681A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB26C94A27044090000681A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB26C94C27044090000681A4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,10 @@
 		AB26C95F27044090000681A4 /* IOSNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB26C96327044090000681A4 /* IOSNetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNetworkingUITests.swift; sourceTree = "<group>"; };
 		AB26C96527044090000681A4 /* IOSNetworkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNetworkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB26C97327044121000681A4 /* Screen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+		AB26C975270443EA000681A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ABDA0E362704803E002B341D /* AFHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHttp.swift; sourceTree = "<group>"; };
+		ABDA0E392706CB94002B341D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDA0E342704488D002B341D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,9 @@
 		AB26C9372704408F000681A4 = {
 			isa = PBXGroup;
 			children = (
+				ABDA0E382706CB7D002B341D /* model */,
+				ABDA0E3527048020002B341D /* Network */,
+				AB26C9722704410F000681A4 /* Screens */,
 				AB26C9422704408F000681A4 /* IOSNetworking */,
 				AB26C95827044090000681A4 /* IOSNetworkingTests */,
 				AB26C96227044090000681A4 /* IOSNetworkingUITests */,
@@ -98,8 +108,8 @@
 		AB26C9422704408F000681A4 /* IOSNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				AB26C975270443EA000681A4 /* Info.plist */,
 				AB26C9432704408F000681A4 /* IOSNetworkingApp.swift */,
-				AB26C9452704408F000681A4 /* ContentView.swift */,
 				AB26C94727044090000681A4 /* Assets.xcassets */,
 				AB26C94C27044090000681A4 /* Persistence.swift */,
 				AB26C94E27044090000681A4 /* IOSNetworking.xcdatamodeld */,
@@ -133,6 +143,30 @@
 			path = IOSNetworkingUITests;
 			sourceTree = "<group>";
 		};
+		AB26C9722704410F000681A4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AB26C97327044121000681A4 /* Screen1.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ABDA0E3527048020002B341D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA0E362704803E002B341D /* AFHttp.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ABDA0E382706CB7D002B341D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA0E392706CB94002B341D /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +183,9 @@
 			dependencies = (
 			);
 			name = IOSNetworking;
+			packageProductDependencies = (
+				ABDA0E332704488D002B341D /* Alamofire */,
+			);
 			productName = IOSNetworking;
 			productReference = AB26C9402704408F000681A4 /* IOSNetworking.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +258,9 @@
 				Base,
 			);
 			mainGroup = AB26C9372704408F000681A4;
+			packageReferences = (
+				ABDA0E322704488D002B341D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = AB26C9412704408F000681A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDA0E372704803E002B341D /* AFHttp.swift in Sources */,
 				AB26C94D27044090000681A4 /* Persistence.swift in Sources */,
+				AB26C97427044121000681A4 /* Screen1.swift in Sources */,
+				ABDA0E3A2706CB94002B341D /* Post.swift in Sources */,
 				AB26C95027044090000681A4 /* IOSNetworking.xcdatamodeld in Sources */,
-				AB26C9462704408F000681A4 /* ContentView.swift in Sources */,
 				AB26C9442704408F000681A4 /* IOSNetworkingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +471,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IOSNetworking/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IOSNetworking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +501,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IOSNetworking/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IOSNetworking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -609,6 +653,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABDA0E322704488D002B341D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABDA0E332704488D002B341D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABDA0E322704488D002B341D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AB26C94E27044090000681A4 /* IOSNetworking.xcdatamodeld */ = {

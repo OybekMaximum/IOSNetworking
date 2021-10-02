@@ -13,7 +13,7 @@ struct IOSNetworkingApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Screen1()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
