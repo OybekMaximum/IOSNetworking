@@ -19,7 +19,7 @@ struct Employee: Decodable{
         self.employee_salary = employee_salary
         self.employee_age = employee_age
         self.profile_image = profile_image
-        self.id = 2968
+        self.id = 1
 //        var employee_name: String?
 //        var employee_salary: Int?
 //        var employee_age: Int?
