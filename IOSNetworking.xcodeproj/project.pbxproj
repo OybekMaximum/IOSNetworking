@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB012C862709C38000F1183E /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB012C852709C38000F1183E /* EmployeeViewModel.swift */; };
 		AB26C9442704408F000681A4 /* IOSNetworkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26C9432704408F000681A4 /* IOSNetworkingApp.swift */; };
 		AB26C94827044090000681A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB26C94727044090000681A4 /* Assets.xcassets */; };
 		AB26C94B27044090000681A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB26C94A27044090000681A4 /* Preview Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB012C852709C38000F1183E /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
 		AB26C9402704408F000681A4 /* IOSNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB26C9432704408F000681A4 /* IOSNetworkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNetworkingApp.swift; sourceTree = "<group>"; };
 		AB26C94727044090000681A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				ABDA0E392706CB94002B341D /* Post.swift */,
+				AB012C852709C38000F1183E /* EmployeeViewModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				ABDA0E372704803E002B341D /* AFHttp.swift in Sources */,
 				AB26C94D27044090000681A4 /* Persistence.swift in Sources */,
+				AB012C862709C38000F1183E /* EmployeeViewModel.swift in Sources */,
 				AB26C97427044121000681A4 /* Screen1.swift in Sources */,
 				ABDA0E3A2706CB94002B341D /* Post.swift in Sources */,
 				AB26C95027044090000681A4 /* IOSNetworking.xcdatamodeld in Sources */,

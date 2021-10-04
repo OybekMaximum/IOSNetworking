@@ -53,7 +53,7 @@ class AFHttp{
         return parameters
     }
     
-    class func paramsPostCreate(post: Employee) -> Parameters {
+    class func paramsPostCreate(post: Data) -> Parameters {
         let parameters: Parameters = [
 //            "title": post.title!,
 //            "body": post.body!,
@@ -67,7 +67,7 @@ class AFHttp{
         return parameters
     }
     
-    class func paramsPostUpdate(post: Employee) -> Parameters {
+    class func paramsPostUpdate(post: Data) -> Parameters {
         let parameters: Parameters = [
 //            "id": post.id!,
 //            "title": post.title!,
